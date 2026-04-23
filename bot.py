@@ -1,4 +1,8 @@
 import os
+
+print("TOKEN RAW:", os.getenv("TELEGRAM_BOT_TOKEN"))
+print("CHAT_ID RAW:", os.getenv("TELEGRAM_CHANNEL_ID"))
+import os
 import feedparser
 from telegram import Bot
 
